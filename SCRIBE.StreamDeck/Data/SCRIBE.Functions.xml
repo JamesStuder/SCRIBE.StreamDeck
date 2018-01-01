@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Functions>
+  <!--name = What you want to show on the button-->
+  <!--value = The value you want to have pasted-->
+  <UserDefined> 
+    <function name="IFNULL" value="IF(ISNULLOREMPTY(),NULL,)"/>
+    <function name="IFAND" value="IF(AND(),,)"/>
+    <function name="IFOR" value="IF(OR(),,)"/>
+    <function name="FORMATDATE" value="FORMAT('yyyy-MM-dd',)"/>
+  </UserDefined>
+  <Conversion>
+    <function name="FROMHEX" value="FROMHEX(number)"/>
+    <function name="FROMLIST" value="FROMLIST(expression, delimiter, sort, add_quotes)"/>
+    <function name="TOBOOLEAN" value="TOBOOLEAN(expression)"/>
+    <function name="TODATETIME" value="TODATETIME(string_expression)"/>
+    <function name="TODECIMAL" value="TODECIMAL(expression)"/>
+    <function name="TODOUBLE" value="TODOUBLE(expression)"/>
+    <function name="TOHEX" value="TOHEX(number)"/>
+    <function name="TOINTEGER" value="TOINTEGER(expression)"/>
+    <function name="TOLIST" value="TOLIST(expression, delimiter, type, sort, remove_quotes, remove_empty)"/>
+    <function name="TOSTRING" value="TOSTRING(expression)"/>
+  </Conversion>
+  <Date>
+    <function name="DATE" value="DATE(year, month, day)"/>
+    <function name="DATEADD" value="DATEADD(interval, number, date)"/>
+    <function name="DATEDIFF" value="DATEDIFF(interval, date1, date2)"/>
+    <function name="DATEPART" value="DATEPART(interval, date)"/>
+    <function name="DATETIME" value="DATETIME(year, month, day, hour, minute, second, kind)"/>
+    <function name="GETDATETIME" value="GETDATETIME()"/>
+    <function name="GETUTCDATETIME" value="GETUTCDATETIME()"/>
+    <function name="ISDATE" value="ISDATE(date)"/>
+    <function name="ISLOCALDATE" value="ISLOCALDATE(date)"/>
+    <function name="ISMINDATE" value="ISMINDATE(date)"/>
+    <function name="ISUNSPECIFIEDDATE" value="ISUNSPECIFIEDDATE(date)"/>
+    <function name="ISUTCDATE" value="ISUTCDATE(date)"/>
+  </Date>
+  <Logical>
+    <function name="AND" value="AND(condition, condition[, condition, ...])"/>
+    <function name="CHOOSE" value="CHOOSE(index, item_list)"/>
+    <function name="CHOOSEBYVAL" value="CHOOSEBYVAL(expression, value1, result1, value2, result2,..., defaultresult)"/>
+    <function name="COMPARE" value="COMPARE(string_expression1, string_expression2, True|False)"/>
+    <function name="IF" value="IF(condition, TrueValue, FalseValue)"/>
+    <function name="IFNULLUSE" value="IFNULLUSE(expression, replacement)"/>
+    <function name="ISNULL" value="ISNULL(expression)"/>
+    <function name="ISNULLOREMPTY" value="ISNULLOREMPTY(expression)"/>
+    <function name="ISNULLORWHITESPACE" value="ISNULLORWHITESPACE(expression)"/>
+    <function name="ISREPEATED" value="ISREPEATED(field_name)"/>
+    <function name="NOT" value="NOT(condition)"/>
+    <function name="OR" value="OR(condition, condition [, condition, ...])"/>
+  </Logical>
+  <Lookup>
+    <function name="CSVLOOKUPVALUE" value="CSVLOOKUPVALUE (filename, lookup_column, field_value, return_column, isfirstrowheader, maxfilesize)"/>
+    <function name="LOOKUPTABLEVALUE1" value="LOOKUPTABLEVALUE1 (table_name, expression)"/>
+    <function name="LOOKUPTABLEVALUE1_DEFAULT" value="LOOKUPTABLEVALUE1_DEFAULT (table_name, expression, default_value)"/>
+    <function name="LOOKUPTABLEVALUE2" value="LOOKUPTABLEVALUE2 (table_name, expression)"/>
+    <function name="LOOKUPTABLEVALUE2_DEFAULT" value="LOOKUPTABLEVALUE2_DEFAULT (table_name, expression, default_value)"/>
+    <function name="LOOKUPTARGETVALUE" value="LOOKUPTARGETVALUE(entity, lookupfield, field_value, returnfield)"/>
+    <function name="LOOKUPTARGETVALUE2" value="LOOKUPTARGETVALUE2(entity, lookupfield1, field_value1, lookupfield2, field_value2, returnfield)"/>
+  </Lookup>
+  <Math>
+    <function name="ABS" value="ABS(numeric_expression)"/>
+    <function name="AVERAGE" value="AVERAGE(numeric_expression, numeric_expression, ...)"/>
+    <function name="CEILING" value="CEILING(numeric_expression)"/>
+    <function name="FLOOR" value="FLOOR(numeric_expression)"/>
+    <function name="MAX" value="MAX(numeric_expression, numeric_expression, ...)"/>
+    <function name="MIN" value="MIN(numeric_expression, numeric_expression, ...)"/>
+    <function name="MOD" value="MOD(number, divisor)"/>
+    <function name="ROUND" value="ROUND(numeric_expression, value )"/>
+  </Math>
+  <Miscellaneous>
+    <function name="COMPUTERNAME" value="COMPUTERNAME()"/>
+    <function name="EMPTYGUID" value="EMPTYGUID()"/>
+    <function name="GUID" value="GUID(string_expression)"/>
+    <function name="NEWGUID" value="NEWGUID()"/>
+    <function name="RECNUM" value="RECNUM()"/>
+    <function name="SEQNUM" value="SEQNUM(initial_value_number)"/>
+    <function name="SEQNUMGET" value="SEQNUMGET()"/>
+    <function name="SEQNUMN" value="SEQNUMN(name, initial_value_number)"/>
+    <function name="SEQNUMNGET" value="SEQNUMNGET(name)"/>
+  </Miscellaneous>
+  <Text>
+    <function name="CHAR" value="CHAR(expression)"/>
+    <function name="CLEAN" value="CLEAN(string_expression)"/>
+    <function name="CODE" value="CODE(text, index[not needed])"/>
+    <function name="CONCATENATE" value="CONCATENATE(string_expression, string_expression, ...)"/>
+    <function name="FIND" value="FIND(string_expression, search_string)"/>
+    <function name="FINDREGEX" value="FINDREGEX(string_expression, search_regex)"/>
+    <function name="FORMAT" value="FORMAT(string_format, expression)"/>
+    <function name="ISEMAILADDRESS" value="ISEMAILADDRESS(expression)"/>
+    <function name="ISREGEXEXACTMATCH" value="ISREGEXEXACTMATCH(input, regex)"/>
+    <function name="LEFT" value="LEFT(character_expression, integer)"/>
+    <function name="LEN" value="LEN(string_expression)"/>
+    <function name="LOWER" value="LOWER(character_expression)"/>
+    <function name="MATCHREGEX" value="MATCHREGEX(string_to_search, search_regex)"/>
+    <function name="MID" value="MID(string_expression, start_position, number)"/>
+    <function name="PADL" value="PADL(text_string, width, pad_character)"/>
+    <function name="PADR" value="PADR(text_string, width, pad_character)"/>
+    <function name="PARSE" value="PARSE(string_expression, token_number, delimiter)"/>
+    <function name="PARSEADDR" value="PARSEADDR(address_text, 'address_token')"/>
+    <function name="PARSENAME" value="PARSENAME(TextSourceField, 'name_token')"/>
+    <function name="PROPER" value="PROPER(character_expression)"/>
+    <function name="REPLACE" value="REPLACE(string_expression, search_string, replacement_string)"/>
+    <function name="REPLACEREGEX" value="REPLACEREGEX(string_to_search, search_regex, replacement_string)"/>
+    <function name="RIGHT" value="RIGHT(character_expression, integer)"/>
+    <function name="STRIP" value="STRIP(string_expression, 'identifier')"/>
+    <function name="TRIM" value="TRIM(string_expression)"/>
+    <function name="TRIMEND" value="TRIMEND(string_expression)"/>
+    <function name="TRIMSTART" value="TRIMSTART(string_expression)"/>
+    <function name="UPPER" value="UPPER(character_expression)"/>
+  </Text>
+</Functions>

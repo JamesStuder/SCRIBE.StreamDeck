@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCRIBE.StreamDeck", "SCRIBE.StreamDeck\SCRIBE.StreamDeck.csproj", "{DA2AF4E9-6B15-4D84-9F25-96CBB344BC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCRIBE.StreamDeck.UnitTests", "SCRIBE.StreamDeck.UnitTests\SCRIBE.StreamDeck.UnitTests.csproj", "{A1E025B4-E27F-40F8-999B-BF0611713DFE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SCRIBE.StreamDeck.Installer", "SCRIBE.StreamDeck.Installer\SCRIBE.StreamDeck.Installer.vdproj", "{CA66277C-8C17-439D-8046-FAF5B54A3AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA2AF4E9-6B15-4D84-9F25-96CBB344BC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2AF4E9-6B15-4D84-9F25-96CBB344BC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2AF4E9-6B15-4D84-9F25-96CBB344BC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2AF4E9-6B15-4D84-9F25-96CBB344BC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E025B4-E27F-40F8-999B-BF0611713DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E025B4-E27F-40F8-999B-BF0611713DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E025B4-E27F-40F8-999B-BF0611713DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E025B4-E27F-40F8-999B-BF0611713DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA66277C-8C17-439D-8046-FAF5B54A3AED}.Debug|Any CPU.ActiveCfg = Debug
+		{CA66277C-8C17-439D-8046-FAF5B54A3AED}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59D9AC2C-F0FA-43CC-B141-BC8A7E52CDF9}
+	EndGlobalSection
+EndGlobal

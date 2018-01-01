@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/.vs/SCRIBE.StreamDeck/v15
+/packages
+*.user
+/SCRIBE.StreamDeck/obj/Debug
+/SCRIBE.StreamDeck/bin/Debug
+/SCRIBE.StreamDeck.UnitTests/bin/Debug
+/SCRIBE.StreamDeck.UnitTests/obj/Debug
