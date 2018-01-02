@@ -52,7 +52,7 @@ namespace SCRIBE.StreamDeck.Services
                 deck.SetKeyBitmap(9, StreamDeckKeyBitmap.FromFile(Resources.ImagesFolders + "\\UserDefined.png"));
                 deck.SetKeyBitmap(8, StreamDeckKeyBitmap.FromFile(Resources.ImagesDefault + "\\Copy.png"));
                 deck.SetKeyBitmap(7, StreamDeckKeyBitmap.FromFile(Resources.ImagesDefault + "\\Paste.png"));
-                deck.SetKeyBitmap(6, StreamDeckKeyBitmap.FromFile(Resources.ImagesDefault + "\\Cut.png"));
+                deck.SetKeyBitmap(6, StreamDeckKeyBitmap.FromFile(Resources.ImagesFolders + "\\Lookup.png"));
                 deck.SetKeyBitmap(5, StreamDeckKeyBitmap.FromFile(Resources.ImagesFolders + "\\Conversion.png"));
                 //Row 3                                                               
                 deck.SetKeyBitmap(14, StreamDeckKeyBitmap.FromFile(Resources.ImagesFolders + "\\Date.png"));
@@ -241,7 +241,7 @@ namespace SCRIBE.StreamDeck.Services
                             if (subPageNumber == 0)
                             {
                                 allowPaste = false;
-                                SendKeys.SendWait("^{x}");
+                                SubInitialDisplay(deck, "Lookup");
                             }
                             else
                             {

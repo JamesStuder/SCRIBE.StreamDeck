@@ -141,6 +141,9 @@
     <Content Include="Images\Common\Folders\Logical.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\Common\Folders\Lookup.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\Common\Folders\Math.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -282,15 +285,27 @@
     <Content Include="Images\Logical\OR.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Lookup\CSVLOOKUPVALUE.png" />
-    <Content Include="Images\Lookup\LOOKUPTABLEVALUE1.png" />
+    <Content Include="Images\Lookup\CSVLOOKUPVALUE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Lookup\LOOKUPTABLEVALUE1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\Lookup\LOOKUPTABLEVALUE1_DEFAULT.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Lookup\LOOKUPTABLEVALUE2.png" />
-    <Content Include="Images\Lookup\LOOKUPTABLEVALUE2_DEFAULT.png" />
-    <Content Include="Images\Lookup\LOOKUPTARGETVALUE.png" />
-    <Content Include="Images\Lookup\LOOKUPTARGETVALUE2.png" />
+    <Content Include="Images\Lookup\LOOKUPTABLEVALUE2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Lookup\LOOKUPTABLEVALUE2_DEFAULT.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Lookup\LOOKUPTARGETVALUE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Lookup\LOOKUPTARGETVALUE2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\Math\ABS.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

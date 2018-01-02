@@ -93,6 +93,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_12812595730940C89D8FB7B41FA95884"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_145FBFE877B445F99E1EDB6A3026B107"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -137,12 +143,6 @@
         {
         "MsmKey" = "8:_23F76FC4483C49679062A10667BABC49"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2B873689F0F381B170A8DF1DC327C6AA"
-        "OwnerKey" = "8:_450521AED22B4A96A9905F73D05E2A8C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -279,7 +279,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_4C207EE8312D4E60ACAE19C9E5FFF39C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4D8FE561A51140A582FA3FADE21EFB49"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4F6CCE8CE6FB40589CA9CB59A9D6CB91"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -287,6 +299,12 @@
         {
         "MsmKey" = "8:_4F8EC303EC7E4024BE68716BB7BBC235"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_51BA93E6EFCCF5EE42C7C824F3C035E7"
+        "OwnerKey" = "8:_450521AED22B4A96A9905F73D05E2A8C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -393,6 +411,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_724CDEE1523844C4958C664DA5637B97"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_74D119BAD6D84CF5AF5137A78ADF9884"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -418,6 +442,12 @@
         "Entry"
         {
         "MsmKey" = "8:_83708063D305493C837AE93BC6EF5EE6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_84693E477B2A403AA00201D2A1A835DE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -484,6 +514,12 @@
         "Entry"
         {
         "MsmKey" = "8:_9FC403E045544E438530D281E422DF43"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A3D5CF8260384EAA958D7F04A3005BC0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -651,6 +687,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_DBAE5ECC050743A28120AA2DF5C02DB8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_DC2D56FED3E4464CA468DB7F2CC75837"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -693,6 +735,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_EF2E585F56594561A3209983F6A832DE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_EF9F380813B1418D817947C70A8597A8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -730,7 +778,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2B873689F0F381B170A8DF1DC327C6AA"
+        "OwnerKey" = "8:_51BA93E6EFCCF5EE42C7C824F3C035E7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1094,6 +1142,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_12812595730940C89D8FB7B41FA95884"
+            {
+            "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Lookup\\LOOKUPTABLEVALUE2.png"
+            "TargetName" = "8:LOOKUPTABLEVALUE2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_EE82D4A58136443699155B0275ADC712"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_145FBFE877B445F99E1EDB6A3026B107"
             {
             "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Common\\Folders\\Text.png"
@@ -1252,37 +1320,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2B873689F0F381B170A8DF1DC327C6AA"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:StreamDeckSharp, Version=3.2.46.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_2B873689F0F381B170A8DF1DC327C6AA"
-                    {
-                    "Name" = "8:StreamDeckSharp.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:StreamDeckSharp.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_7637E41CAF6B4891B1B201FA57FEF042"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_30C8779C575D4681BF1C1F7EBE49B5A5"
@@ -1716,12 +1753,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4C207EE8312D4E60ACAE19C9E5FFF39C"
+            {
+            "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Lookup\\LOOKUPTABLEVALUE1.png"
+            "TargetName" = "8:LOOKUPTABLEVALUE1.png"
+            "Tag" = "8:"
+            "Folder" = "8:_EE82D4A58136443699155B0275ADC712"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4D8FE561A51140A582FA3FADE21EFB49"
             {
             "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Text\\CONCATENATE.png"
             "TargetName" = "8:CONCATENATE.png"
             "Tag" = "8:"
             "Folder" = "8:_4B53352E119C44C4894D6BAAB43BFF34"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4F6CCE8CE6FB40589CA9CB59A9D6CB91"
+            {
+            "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Lookup\\LOOKUPTARGETVALUE2.png"
+            "TargetName" = "8:LOOKUPTARGETVALUE2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_EE82D4A58136443699155B0275ADC712"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1754,6 +1831,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_51BA93E6EFCCF5EE42C7C824F3C035E7"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:StreamDeckSharp, Version=3.2.46.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_51BA93E6EFCCF5EE42C7C824F3C035E7"
+                    {
+                    "Name" = "8:StreamDeckSharp.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:StreamDeckSharp.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7637E41CAF6B4891B1B201FA57FEF042"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_51E8C922ECB5473D87124E9AC425FA5D"
@@ -2096,6 +2204,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_724CDEE1523844C4958C664DA5637B97"
+            {
+            "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Lookup\\CSVLOOKUPVALUE.png"
+            "TargetName" = "8:CSVLOOKUPVALUE.png"
+            "Tag" = "8:"
+            "Folder" = "8:_EE82D4A58136443699155B0275ADC712"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_74D119BAD6D84CF5AF5137A78ADF9884"
             {
             "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Common\\clipboard.png"
@@ -2182,6 +2310,26 @@
             "TargetName" = "8:ISNULLOREMPTY.png"
             "Tag" = "8:"
             "Folder" = "8:_46827B669BDB4F76A5D62CD8322F0951"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_84693E477B2A403AA00201D2A1A835DE"
+            {
+            "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Lookup\\LOOKUPTARGETVALUE.png"
+            "TargetName" = "8:LOOKUPTARGETVALUE.png"
+            "Tag" = "8:"
+            "Folder" = "8:_EE82D4A58136443699155B0275ADC712"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2402,6 +2550,26 @@
             "TargetName" = "8:PROPER.png"
             "Tag" = "8:"
             "Folder" = "8:_4B53352E119C44C4894D6BAAB43BFF34"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A3D5CF8260384EAA958D7F04A3005BC0"
+            {
+            "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Common\\Folders\\Lookup.png"
+            "TargetName" = "8:Lookup.png"
+            "Tag" = "8:"
+            "Folder" = "8:_2B12F9A114A24D69B242C1ED6D2E4725"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2956,6 +3124,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DBAE5ECC050743A28120AA2DF5C02DB8"
+            {
+            "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Lookup\\LOOKUPTABLEVALUE1_DEFAULT.png"
+            "TargetName" = "8:LOOKUPTABLEVALUE1_DEFAULT.png"
+            "Tag" = "8:"
+            "Folder" = "8:_EE82D4A58136443699155B0275ADC712"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DC2D56FED3E4464CA468DB7F2CC75837"
             {
             "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Common\\Default\\Cut.png"
@@ -3082,6 +3270,26 @@
             "TargetName" = "8:LOWER.png"
             "Tag" = "8:"
             "Folder" = "8:_4B53352E119C44C4894D6BAAB43BFF34"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EF2E585F56594561A3209983F6A832DE"
+            {
+            "SourcePath" = "8:..\\SCRIBE.StreamDeck\\Images\\Lookup\\LOOKUPTABLEVALUE2_DEFAULT.png"
+            "TargetName" = "8:LOOKUPTABLEVALUE2_DEFAULT.png"
+            "Tag" = "8:"
+            "Folder" = "8:_EE82D4A58136443699155B0275ADC712"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3364,6 +3572,17 @@
                                 {
                                 }
                             }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_EE82D4A58136443699155B0275ADC712"
+                            {
+                            "Name" = "8:Lookup"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_E6458DB4211B4263B7E33FDB8A9555F5"
+                                "Folders"
+                                {
+                                }
+                            }
                             "{9EF0B969-E518-4E46-987F-47570745A589}:_FDDF232A79EE435EACC5CE8948F61BE5"
                             {
                             "Name" = "8:Miscellaneous"
@@ -3406,15 +3625,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SCRIBE StreamDeck"
-        "ProductCode" = "8:{3619ED3B-2E7A-45E7-BEEE-E9EA33DFA364}"
-        "PackageCode" = "8:{7C1699B5-6D40-43FF-9B83-33E241EF7CF4}"
+        "ProductCode" = "8:{3DFBD5EB-B0CD-4E3E-959D-910A92684631}"
+        "PackageCode" = "8:{10E4564A-7C79-48D0-8958-7F18647F4CD8}"
         "UpgradeCode" = "8:{CD1A36CA-8A05-437B-A830-912F3C285E3B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:02.01.2017"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:02.02.2018"
         "Manufacturer" = "8:James Studer"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/medicstuder/SCRIBE/issues"

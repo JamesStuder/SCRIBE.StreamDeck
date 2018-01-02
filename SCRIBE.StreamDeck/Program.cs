@@ -39,13 +39,20 @@ namespace SCRIBE.StreamDeck
                     //This is where the program starts.  Using statements used for clean disposals.
                     using (SystemTrayService sysTray = new SystemTrayService())
                     {
-                        using (IStreamDeck deck = StreamDeckSharp.StreamDeck.FromHID())
+                        try
                         {
-                            StreamDeckService streamDeckService = new StreamDeckService(deck);
-                            streamDeckService.InitialDisplay();
-                            sysTray.Display();
-                            GC.Collect();
-                            Application.Run();
+                            using (IStreamDeck deck = StreamDeckSharp.StreamDeck.FromHID())
+                            {
+                                StreamDeckService streamDeckService = new StreamDeckService(deck);
+                                streamDeckService.InitialDisplay();
+                                sysTray.Display();
+                                GC.Collect();
+                                Application.Run();
+                            }
+                        }
+                        catch
+                        {
+                            Application.Exit();
                         }
                     }
                 }
